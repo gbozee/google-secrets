@@ -36,7 +36,7 @@ def build_client_secret(filename="client-secrets.json"):
                 string += ","
             outfile.write(string)
         outfile.write("}")
-        json.dump(data, outfile, ensure_ascii=False)
+        # json.dump(data, outfile, ensure_ascii=False)
 
 
 @click.command()
